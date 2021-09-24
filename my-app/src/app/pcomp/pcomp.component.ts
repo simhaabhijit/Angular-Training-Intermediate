@@ -24,16 +24,16 @@ export class PcompComponent implements OnInit {
   }
 
   callServices() {
-    console.log(this.oneService.one, 
-      this.twoService.two, 
-      this.threeService.three);
-    this.oneService.one = 0;
-    this.twoService.two = 0;
-    this.threeService.three = 0;
-    console.log(this.oneService.one,
-       this.twoService.two,
-        this.threeService.three);
-    this.router.navigate(['bbb']);
+    // console.log(this.oneService.one, 
+    //   this.twoService.two, 
+    //   this.threeService.three);
+    // this.oneService.one = 0;
+    // this.twoService.two = 0;
+    // this.threeService.three = 0;
+    // console.log(this.oneService.one,
+    //    this.twoService.two,
+    //     this.threeService.three);
+    this.router.navigate(['aaa']);
   }
 
 }

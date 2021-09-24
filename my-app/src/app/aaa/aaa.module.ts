@@ -4,7 +4,8 @@ import { AaaCompComponent } from './aaa-comp/aaa-comp.component';
 // import { BbbModule } from '../bbb/bbb.module';
 import { TwoService } from './two.service';
 import { RouterModule } from '@angular/router';
-
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -13,6 +14,8 @@ import { RouterModule } from '@angular/router';
   ],
   imports: [
     CommonModule,
+    FormsModule,
+    HttpClientModule
     // RouterModule.forChild([
     //   {
     //     path: 'g', children:
